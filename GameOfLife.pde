@@ -119,7 +119,7 @@ import de.bezier.guido.*;
       myCol = col;
       x = myCol * width;
       y = myRow * height;
-      alive = Math.random(2)+1 = 1; 
+      alive = Math.random < .5; 
       Interactive.add(this); 
     }
 

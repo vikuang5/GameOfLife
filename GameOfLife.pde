@@ -1,4 +1,7 @@
+mport processing.core.PApplet;
 import de.bezier.guido.*;
+
+public class Sketch extends PApplet {
 
   public final static int NUM_ROWS = 30;
   public final static int NUM_COLS = 30;
@@ -6,8 +9,12 @@ import de.bezier.guido.*;
   private boolean[][] buffer; 
   private boolean running = true; 
 
-  public void setup() {
+  public void settings() {
     size(400, 400);
+  }
+
+  public void setup() {
+
     frameRate(6);
     Interactive.make(this);
 
@@ -119,7 +126,7 @@ import de.bezier.guido.*;
       myCol = col;
       x = myCol * width;
       y = myRow * height;
-      alive = Math.random < .5; 
+      alive = Math.random() < .5; 
       Interactive.add(this); 
     }
 

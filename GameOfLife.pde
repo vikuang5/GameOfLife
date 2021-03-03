@@ -1,7 +1,6 @@
-import processing.core.PApplet;
 import de.bezier.guido.*;
 
-public class Sketch extends PApplet {
+public class Sketch  {
 
   public final static int NUM_ROWS = 30;
   public final static int NUM_COLS = 30;

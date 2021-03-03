@@ -1,7 +1,5 @@
-import processing.core.PApplet;
 import de.bezier.guido.*;
 
-public class Sketch extends PApplet {
 
   public final static int NUM_ROWS = 30;
   public final static int NUM_COLS = 30;
@@ -11,7 +9,7 @@ public class Sketch extends PApplet {
 
   public void settings() {
     size(400, 400);
-  }
+  
 
   public void setup() {
 

@@ -6,12 +6,8 @@ import de.bezier.guido.*;
   private boolean[][] buffer; 
   private boolean running = true; 
 
-  public void settings() {
-    size(400, 400);
-  }
-
   public void setup() {
-
+    size(400,400);
     frameRate(6);
     Interactive.make(this);
 

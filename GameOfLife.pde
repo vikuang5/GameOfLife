@@ -8,7 +8,7 @@ import de.bezier.guido.*;
 
   public void settings() {
     size(400, 400);
-    framRate(6);
+    frameRate(6);
     }
   
 

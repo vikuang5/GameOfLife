@@ -11,10 +11,8 @@ import de.bezier.guido.*;
     frameRate(6);
     }
   
-
   public void setup() {
 
-    frameRate(6);
     Interactive.make(this);
 
     buttons = new Life[NUM_ROWS][NUM_COLS];
